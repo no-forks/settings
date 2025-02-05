@@ -47,4 +47,4 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 setopt list_packed
 # "cd -"の段階でTabを押すと、ディレクトリの履歴が見れる
 setopt auto_pushd
-
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
